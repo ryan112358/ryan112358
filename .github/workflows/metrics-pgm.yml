@@ -22,8 +22,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           user: 'ryan112358'
-
-          filter_pattern: 'ryan112358/private-pgm'
+          repo: 'private-pgm'
 
           filename: metrics.private-pgm.svg
 
@@ -39,7 +38,7 @@ jobs:
           plugin_contributors: yes
 
           # For traffic data, token needs admin/push access to the target repository.
-          # plugin_traffic: yes
+          plugin_traffic: yes
 
           template: repository
 
