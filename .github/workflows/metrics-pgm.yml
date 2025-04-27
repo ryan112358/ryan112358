@@ -1,4 +1,4 @@
-name: Metrics
+name: PGM Metrics
 
 on:
   # Schedule daily updates
@@ -42,4 +42,4 @@ jobs:
 
           template: repository
 
-          config_order: base.repositories, isocalendar, languages, lines, contributors
+          config_order: base.header, base.repositories, traffic, isocalendar, languages, lines, contributors
