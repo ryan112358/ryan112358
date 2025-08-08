@@ -22,9 +22,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           user: 'ryan112358'
-          repo: 'private-pgm'
+          repo: 'mbi'
 
-          filename: metrics.private-pgm.svg
+          filename: metrics.mbi.svg
 
           # --- Configure the base sections ---
           # The 'repositories' section here will be filtered by 'filter_pattern'.
